@@ -40,3 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 "interview-prep-*.json" 
+interview-prep-*.json 
