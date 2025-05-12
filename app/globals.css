@@ -188,11 +188,11 @@
   }
 
   .card-border {
-    @apply  p-0.5 rounded-none w-fit;
+    @apply  p-0.5 rounded-2xl w-fit;
   }
 
   .card {
-    @apply dark-gradient rounded-none min-h-full;
+    @apply dark-gradient rounded-2xl min-h-full;
   }
 
   .form {
@@ -219,11 +219,11 @@
     }
 
     .card-interviewer {
-      @apply flex-center flex-col gap-0 p-7 h-[400px] blue-gradient-dark rounded-none border-1 border-primary-200/50 flex-1 sm:basis-1/2 w-full;
+      @apply flex-center flex-col gap-2 p-7 h-[400px] blue-gradient-dark rounded-lg border-primary-200/50 flex-1 sm:basis-1/2 w-full;
     }
 
     .avatar {
-      @apply z-10 flex items-center justify-center blue-gradient rounded-full size-[220px] absolute;
+      @apply z-10 flex items-center justify-center  size-[120px] relative;
 
       .animate-speak {
         @apply absolute inline-flex size-5/6 animate-ping rounded-full bg-primary-200 opacity-75;
@@ -231,22 +231,22 @@
     }
 
     .card-border {
-      @apply border-gradient p-0.5 rounded-none flex-1 sm:basis-1/2 w-full h-[400px] max-md:hidden;
+      @apply  p-0.5 rounded-2xl flex-1 sm:basis-1/2 w-full h-[400px] max-md:hidden;
     }
 
     .card-content {
-      @apply flex flex-col gap-2 justify-center items-center p-7 dark-gradient rounded-none min-h-full;
+      @apply flex flex-col gap-2 justify-center items-center p-7 dark-gradient rounded-2xl min-h-full;
     }
   }
 
   .transcript-border {
-    @apply border-gradient p-0.5 rounded-none w-full;
+    @apply border-gradient p-0.5 rounded-2xl w-full;
 
     .transcript {
-      @apply dark-gradient rounded-none  min-h-12 px-5 py-3 flex items-center justify-center;
+      @apply dark-gradient rounded-2xl  min-h-12 px-5 py-3 flex items-center justify-center;
 
       p {
-        @apply text-lg text-center text-black;
+        @apply text-lg text-center text-white;
       }
     }
   }
@@ -268,7 +268,7 @@
   }
 
   .card-cta {
-    @apply flex flex-row blue-gradient-dark rounded-none px-16 py-6 items-center justify-between max-sm:px-4;
+    @apply flex flex-row blue-gradient-dark rounded-3xl px-16 py-6 items-center justify-between max-sm:px-4;
   }
 
   .interviews-section {
@@ -276,7 +276,7 @@
   }
 
   .interview-text {
-    @apply text-lg text-center text-black;
+    @apply text-lg text-center text-white;
   }
 
   .progress {
@@ -288,7 +288,7 @@
   }
 
   .card-interview {
-    @apply dark-gradient rounded-none min-h-full flex flex-col p-6 relative overflow-hidden gap-10 justify-between;
+    @apply dark-gradient rounded-2xl min-h-full flex flex-col p-6 relative overflow-hidden gap-10 justify-between;
 
     .badge-text {
       @apply text-sm font-semibold capitalize;
